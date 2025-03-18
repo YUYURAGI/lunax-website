@@ -1,0 +1,120 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0e0e2c;
+    color: #fff;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f2b400;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #1a1a3d;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #f2b400;
+    color: #0e0e2c;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #d98e00;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+section p, section ul {
+    font-size: 1.2rem;
+}
+
+section ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+section ul li {
+    margin: 10px 0;
+}
+
+/* Contact Form */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    padding: 15px 30px;
+    background-color: #f2b400;
+    border: none;
+    border-radius: 30px;
+    color: #0e0e2c;
+    font-size: 1.2rem;
+}
+
+form button:hover {
+    background-color: #d98e00;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
